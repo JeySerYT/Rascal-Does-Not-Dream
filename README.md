@@ -10,16 +10,16 @@ Mai Sakurajima Theme for PulseSync
 
 ```
 .
-├── package.json              # Конфигурация сборки
-├── README.md                # Этот файл
-├── .gitignore               # Игнорируемые файлы
-└── Rascal Does Not Dream/   # Папка темы
-    ├── metadata.json        # Метаданные темы
-    ├── project/            # CSS и JS
+├── package.json
+├── README.md
+├── .gitignore
+└── Rascal Does Not Dream/
+    ├── metadata.json
+    ├── project/
     │   ├── style.css
     │   ├── script.js
     │   └── handleEvents.json
-    └── assets/              # Изображения
+    └── assets/
         ├── mai-vibe.gif
         ├── player.gif
         ├── load.gif
