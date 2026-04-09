@@ -4,9 +4,9 @@
     "name": "Rascal Does Not Dream",
     "author": "JeySerYT",
     "description": "Mai Sakurajima Theme by JeySerYT",
-    "version": "0.0.1",
-    "css": "style.css",
-    "script": "script.js",
+    "version": "0.0.2",
+    "css": "project/style.css",
+    "script": "project/script.js",
     "type": "theme",
     "tags": [
         "Anime",
