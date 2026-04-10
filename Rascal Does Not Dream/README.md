@@ -13,7 +13,7 @@ Mai Sakurajima Theme for PulseSync (Yandex Music)
 
 ## Ссылки
 
-- PulseSync: https://pulsesync.dev/
+- GitHub Repo - https://github.com/JeySerYT/Rascal-Does-Not-Dream
 
 ## Лицензия
 
