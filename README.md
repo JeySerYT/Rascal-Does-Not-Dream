@@ -39,8 +39,8 @@ npm run build:pulsesync
     ├── changelog.txt
     ├── project/
     │   ├── style.css
-    │   ├── script.js
-    │   └── handleEvents.json
+    │   └── script.js
+    │   
     └── assets/
         ├── mai-vibe.gif
         ├── player.gif
@@ -59,10 +59,10 @@ npm run build:pulsesync
 ## Контрибьюторы
 
 - JeySerYT - автор темы
+- TripleY - со-автор темы
 
 ## Ссылки
 
-- GitHub: https://github.com/JeySerYT/Rascal-Does-Not-Dream
 - PulseSync: https://pulsesync.dev/
 
 ## Лицензия
