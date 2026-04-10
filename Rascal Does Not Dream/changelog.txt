@@ -1,0 +1,19 @@
+# Changelog
+
+## Версия 0.0.2
+
+### Добавлено
+- Базовая тема Mai Sakurajima с темно-фиолетовой палитрой
+- Структура проекта для PulseSync
+- Поддержка VibeBlock с анимацией
+- package.json для сборки темы
+- README.md с инструкцией по установке
+- handleEvents в metadata.json
+
+### Исправлено
+- Добавлен themeName в package.json для корректной сборки
+- Обновлен .gitignore
+
+### Изменено
+- Перемещена папка темы в "Rascal Does Not Dream"
+- Обновлена документация

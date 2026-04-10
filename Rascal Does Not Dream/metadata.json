@@ -7,6 +7,7 @@
     "version": "0.0.2",
     "css": "project/style.css",
     "script": "project/script.js",
+    "handleEvents": "project/handleEvents.json",
     "type": "theme",
     "tags": [
         "Anime",
