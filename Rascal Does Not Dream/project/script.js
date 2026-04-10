@@ -82,9 +82,21 @@ function applySettings(settings) {
     }
 }
 
+function initCustomTitlebar() {
+    if (document.getElementById('mai-custom-titlebar')) return;
+    
+    const titlebarText = document.createElement('div');
+    titlebarText.id = 'mai-custom-titlebar';
+    titlebarText.className = 'mai-custom-titlebar';
+    titlebarText.textContent = 'Rascal Does Not Dream';
+    document.body.appendChild(titlebarText);
+}
+
 setInterval(async () => {
     const settings = await getSettings("Rascal Does Not Dream");
     if (!settings) return;
 
     applySettings(settings);
 }, 2000);
+
+initCustomTitlebar();

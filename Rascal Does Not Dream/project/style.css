@@ -86,3 +86,26 @@ section[class*="PlayerBar_root"],
     background-size: cover !important;
     background-position: center !important;
 }
+
+/* ===== Тайтл бар ===== */
+@font-face {
+    font-family: 'Cherry Bomb One';
+    src: url('http://127.0.0.1:2007/assets/fonts/CherryBombOne-Regular.ttf?name=Rascal Does Not Dream') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.TitleBar_pulseText__FhYv {
+    display: none !important;
+}
+
+.mai-custom-titlebar {
+    position: fixed;
+    top: 12px;
+    right: 100px;
+    font-family: 'Cherry Bomb One', cursive !important;
+    font-size: 14px !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    z-index: 9999 !important;
+    pointer-events: none !important;
+}
