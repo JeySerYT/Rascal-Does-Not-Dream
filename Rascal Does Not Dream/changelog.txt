@@ -9,6 +9,7 @@
 - package.json для сборки темы
 - README.md с инструкцией по установке
 - handleEvents в metadata.json
+- Настройки темы: основной цвет, отключение Vibe, отключение GIF
 
 ### Исправлено
 - Добавлен themeName в package.json для корректной сборки
