@@ -4,3 +4,4 @@ Thumbs.db
 *.log
 package-lock.json
 dist/
+AGENTS.md
