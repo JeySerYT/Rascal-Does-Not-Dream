@@ -16,8 +16,8 @@
           "name": "Отключить Vibe",
           "description": "Отключить анимацию волны",
           "type": "button",
-          "bool": false,
-          "defaultParameter": false
+          "bool": true,
+          "defaultParameter": true
         },
         {
           "id": "disableVibeGif",
