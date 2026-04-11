@@ -87,7 +87,7 @@ function initCustomTitlebar() {
     
     const titlebarText = document.createElement('div');
     titlebarText.id = 'mai-custom-titlebar';
-    titlebarText.className = 'mai-custom-titlebar';
+    titlebarText.className = 'mai-custom-titlebar loaded';
     titlebarText.textContent = 'Rascal Does Not Dream';
     document.body.appendChild(titlebarText);
 }
