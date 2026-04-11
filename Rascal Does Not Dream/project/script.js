@@ -44,6 +44,8 @@ function transformJSON(data) {
 }
 
 function applySettings(settings) {
+    console.log('Settings:', settings);
+    
     let themeStyleElement = document.getElementById('mai-theme-style');
     if (!themeStyleElement) {
         themeStyleElement = document.createElement('style');
@@ -53,24 +55,24 @@ function applySettings(settings) {
 
     themeStyleElement.textContent = '';
 
-    if (settings.mainColor && settings.mainColor.value) {
-        const color = settings.mainColor.value;
-        themeStyleElement.textContent += `
-            :root {
-                --ym-controls-color-primary-default-enabled: ${color} !important;
-            }
-        `;
-    }
-
     if (settings.disableVibe && settings.disableVibe.value === true) {
+        console.log('Vibe disabled - hide animation');
         themeStyleElement.textContent += `
             [class*="VibeAnimation_root"] {
                 display: none !important;
             }
         `;
+    } else {
+        console.log('Vibe enabled - show animation');
+        themeStyleElement.textContent += `
+            [class*="VibeAnimation_root"] {
+                display: block !important;
+            }
+        `;
     }
 
     if (settings.disableVibeGif && settings.disableVibeGif.value === true) {
+        console.log('Applying disableVibeGif');
         themeStyleElement.textContent += `
             .VibeBlock_root__z7LtR {
                 background-image: none !important;

@@ -20,7 +20,7 @@
     --ym-controls-color-primary-text-hovered: #b88dcc !important;
 }
 
-/* Отключение анимации волны */
+/* Отключение анимации волны по умолчанию */
 [class*="VibeAnimation_root"] {
     display: none !important;
 }

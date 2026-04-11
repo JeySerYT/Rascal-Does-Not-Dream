@@ -4,19 +4,11 @@
       "title": "Основные настройки",
       "items": [
         {
-          "id": "mainColor",
-          "name": "Основной цвет",
-          "description": "Цвет акцента темы",
-          "type": "color",
-          "input": "#9b6bb5",
-          "defaultParameter": "#9b6bb5"
-        },
-        {
           "id": "disableVibe",
           "name": "Отключить Vibe",
           "description": "Отключить анимацию волны",
           "type": "button",
-          "bool": true,
+          "bool": false,
           "defaultParameter": true
         },
         {
