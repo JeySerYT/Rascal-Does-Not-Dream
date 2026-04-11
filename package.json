@@ -1,11 +1,11 @@
 {
     "name": "rascal-does-not-dream",
+    "version": "0.0.3",
     "themeName": "Rascal Does Not Dream",
     "description": "Mai Sakurajima Theme for PulseSync",
     "author": "JeySerYT",
-    "license": "CC0-1.0",
     "scripts": {
-        "build:pulsesync": "ymtm build pulsesync"
+        "build": "ymtm build pulsesync && powershell -ExecutionPolicy Bypass -File build-with-license.ps1"
     },
     "build": {
         "package": [
@@ -21,6 +21,6 @@
         }
     },
     "dependencies": {
-        "ymtm": "github:Diramix/ymtm#2.1.0"
+        "ymtm": "github:Diramix/ymtm#3.0.1"
     }
 }
