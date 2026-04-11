@@ -12,10 +12,10 @@ Mai Sakurajima Theme for PulseSync (Yandex Music)
 
 ```bash
 npm install
-npm run build:pulsesync
+npm run build
 ```
 
-После сборки появится архив в папке `dist/`.
+После сборки в папке `dist/` появятся архивы `.zip` и `.pext` с LICENSE внутри.
 
 ### Ручная установка
 
@@ -31,6 +31,7 @@ npm run build:pulsesync
 ├── README.md
 ├── .gitignore
 ├── LICENSE
+├── build-with-license.ps1
 └── Rascal Does Not Dream/
     ├── metadata.json
     ├── handleEvents.json
