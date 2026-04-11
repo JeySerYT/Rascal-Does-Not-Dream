@@ -1,23 +1,23 @@
 .ym-dark-theme {
     /* Основной фон */
-    --ym-background-color-primary-enabled-basic: #1a1025 !important;
+    --ym-background-color-primary-enabled-basic: #0d1220 !important;
     
     /* Контент */
-    --ym-background-color-primary-enabled-content: #241630 !important;
+    --ym-background-color-primary-enabled-content: #131b2d !important;
     
     /* Всплывающие окна */
-    --ym-background-color-primary-enabled-popover: #2d1b4e !important;
+    --ym-background-color-primary-enabled-popover: #1a2540 !important;
     
     /* Плеер */
-    --ym-background-color-primary-enabled-player: #1a1025 !important;
+    --ym-background-color-primary-enabled-player: #0d1220 !important;
     
     /* Отключение автоматического цвета трека */
-    --player-average-color-background: #1a1025 !important;
-    --ym-background-color-primary-enabled-vibe: #1a1025 !important;
+    --player-average-color-background: #0d1220 !important;
+    --ym-background-color-primary-enabled-vibe: #0d1220 !important;
     
     /* Hover цвета */
-    --ym-controls-color-primary-default-hovered: #7c5295 !important;
-    --ym-controls-color-primary-text-hovered: #b88dcc !important;
+    --ym-controls-color-primary-default-hovered: #2c4a8a !important;
+    --ym-controls-color-primary-text-hovered: #4a7ab8 !important;
 }
 
 /* Отключение анимации волны по умолчанию */
@@ -30,32 +30,32 @@
 [class*="PlayerBar_root"],
 section[class*="PlayerBar_root"],
 [class*="PlayerBarDesktopWithBackgroundProgressBar_player"] {
-    background: #1a1025 !important;
-    background-color: #1a1025 !important;
+    background: #0d1220 !important;
+    background-color: #0d1220 !important;
 }
 
 /* ===== плеер ===== */
 
 /* Прогрессбар */
 [class*="ChangeTimecodeBackground_backgroundProgressbar"]:before {
-    background-color: #9b6bb5 !important;
+    background-color: #1c2d71 !important;
 }
 
 /* Ползунок прогрессбара */
 [class*="ChangeTimecode_thumb"] {
-    background-color: #b88dcc !important;
-    border-color: #b88dcc !important;
+    background-color: #3d5a9e !important;
+    border-color: #3d5a9e !important;
 }
 
 /* Цвет уже проигранной части */
 [class*="ChangeTimecodeBackground_progressbar"] {
-    --ym-slider-color-primary-progress: #9b6bb5 !important;
+    --ym-slider-color-primary-progress: #1c2d71 !important;
 }
 
 /* Время*/
 [class*="ChangeTimecode_timecodeGroup"],
 [class*="ControlsBar_duration"] {
-    color: #e8e0f0 !important;
+    color: #c8d4e8 !important;
 }
 
 /* Цвет иконок в плеере */
@@ -63,12 +63,12 @@ section[class*="PlayerBar_root"],
 [class*="ControlsBar_dislikeIcon"],
 [class*="ControlsBar_item"],
 [class*="ControlsBar_contextMenu"] {
-    color: #e8e0f0 !important;
+    color: #c8d4e8 !important;
 }
 
 /* Громкость */
 [class*="ChangeVolume_slider"]:before {
-    background-color: #9b6bb5 !important;
+    background-color: #1c2d71 !important;
 }
 
 /* ===== VibeBlock ===== */
