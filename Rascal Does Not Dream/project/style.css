@@ -95,19 +95,22 @@ section[class*="PlayerBar_root"],
     font-style: normal;
 }
 
-[class*="TitleBar_pulseText"] {
+span[class*="TitleBar_pulseText"],
+.TitleBar_pulseText__FhYv,
+.TitleBar_pulseText {
     display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
 }
 
 .mai-custom-titlebar {
-    position: fixed !important;
-    top: 0 !important;
+    position: absolute !important;
     left: 50% !important;
-    transform: translateX(-50%) !important;
-    height: 40px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
     font-family: 'Cherry Bomb One', cursive !important;
     font-size: 16px !important;
     font-weight: bold !important;
@@ -115,10 +118,5 @@ section[class*="PlayerBar_root"],
     color: rgba(255, 255, 255, 0.7) !important;
     z-index: 9999 !important;
     pointer-events: none !important;
-    opacity: 0 !important;
-    transition: opacity 0.3s ease !important;
-}
-
-.mai-custom-titlebar.loaded {
     opacity: 1 !important;
 }

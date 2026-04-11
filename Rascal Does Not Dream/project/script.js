@@ -89,7 +89,16 @@ function initCustomTitlebar() {
     titlebarText.id = 'mai-custom-titlebar';
     titlebarText.className = 'mai-custom-titlebar loaded';
     titlebarText.textContent = 'Rascal Does Not Dream';
-    document.body.appendChild(titlebarText);
+    
+    const checkTitleBar = setInterval(() => {
+        const titleBar = document.querySelector('[class*="TitleBar_root"]');
+        if (titleBar) {
+            titleBar.appendChild(titlebarText);
+            clearInterval(checkTitleBar);
+        }
+    }, 100);
+    
+    setTimeout(() => clearInterval(checkTitleBar), 10000);
 }
 
 setInterval(async () => {
