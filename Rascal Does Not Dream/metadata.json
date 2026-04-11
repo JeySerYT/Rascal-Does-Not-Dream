@@ -7,7 +7,7 @@
         "TripleY"
     ],
     "description": "Тема с главной героиней аниме Rascal Does Not Dream",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "css": "project/style.css",
     "script": "project/script.js",
     "handleEvents": "handleEvents.json",
