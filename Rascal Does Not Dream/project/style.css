@@ -1,23 +1,23 @@
 .ym-dark-theme {
     /* Основной фон */
-    --ym-background-color-primary-enabled-basic: #0d1220 !important;
+    --ym-background-color-primary-enabled-basic: #1c2d71 !important;
     
     /* Контент */
-    --ym-background-color-primary-enabled-content: #131b2d !important;
+    --ym-background-color-primary-enabled-content: #1f3563 !important;
     
     /* Всплывающие окна */
-    --ym-background-color-primary-enabled-popover: #1a2540 !important;
+    --ym-background-color-primary-enabled-popover: #263a75 !important;
     
     /* Плеер */
-    --ym-background-color-primary-enabled-player: #0d1220 !important;
+    --ym-background-color-primary-enabled-player: #1c2d71 !important;
     
     /* Отключение автоматического цвета трека */
-    --player-average-color-background: #0d1220 !important;
-    --ym-background-color-primary-enabled-vibe: #0d1220 !important;
+    --player-average-color-background: #1c2d71 !important;
+    --ym-background-color-primary-enabled-vibe: #1c2d71 !important;
     
     /* Hover цвета */
-    --ym-controls-color-primary-default-hovered: #2c4a8a !important;
-    --ym-controls-color-primary-text-hovered: #4a7ab8 !important;
+    --ym-controls-color-primary-default-hovered: #3d5a9e !important;
+    --ym-controls-color-primary-text-hovered: #6a8fc7 !important;
 }
 
 /* Отключение анимации волны по умолчанию */
@@ -30,8 +30,8 @@
 [class*="PlayerBar_root"],
 section[class*="PlayerBar_root"],
 [class*="PlayerBarDesktopWithBackgroundProgressBar_player"] {
-    background: #0d1220 !important;
-    background-color: #0d1220 !important;
+    background: #1c2d71 !important;
+    background-color: #1c2d71 !important;
 }
 
 /* ===== плеер ===== */
