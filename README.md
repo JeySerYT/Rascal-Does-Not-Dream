@@ -2,26 +2,7 @@
 
 Mai Sakurajima Theme for PulseSync (Yandex Music)
 
-## О теме
-
-Тема для Яндекс Музыки с персонажем Mai Sakurajima из аниме "Rascal Does Not Dream of Bunny Girl Senpai".
-
-## Установка
-
-### Автоматическая сборка
-
-```bash
-npm install
-npm run build
-```
-
-После сборки в папке `dist/` появятся архивы `.zip` и `.pext` с LICENSE внутри.
-
-### Ручная установка
-
-1. Склонируйте репозиторий
-2. Скопируйте папку `Rascal Does Not Dream` в папку тем PulseSync
-3. Активируйте тему в приложении
+> Тема для Яндекс Музыки с персонажем Mai Sakurajima из аниме "Rascal Does Not Dream of Bunny Girl Senpai"
 
 ## Структура проекта
 
@@ -37,11 +18,9 @@ npm run build
     ├── handleEvents.json
     ├── LICENSE
     ├── README.md
-    ├── changelog.txt
     ├── project/
     │   ├── style.css
     │   └── script.js
-    │   
     └── assets/
         ├── mai-vibe.gif
         ├── player.gif
@@ -51,20 +30,27 @@ npm run build
             └── banner.gif
 ```
 
+## Команды
+
+```bash
+npm install
+npm run build
+```
+
 ## Используемые цвета
 
-- Основной фон: `#1a1025` (темно-фиолетовый)
-- Контент: `#241630` (фиолетовый)
-- Акцент: `#9b6bb5` (фиолетовый)
+- Основной фон: `#141e32`
+- Контент: `#1a2640`
+- Акцент: `#2d4f78`
 
 ## Контрибьюторы
 
 - JeySerYT - автор темы
-- TripleY - со-автор темы
 
 ## Ссылки
 
 - PulseSync: https://pulsesync.dev/
+- GitHub Repo: https://github.com/JeySerYT/Rascal-Does-Not-Dream
 
 ## Лицензия
 

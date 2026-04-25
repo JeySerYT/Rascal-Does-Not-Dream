@@ -2,12 +2,9 @@
     "image": "assets/metadata/icon.gif",
     "banner": "assets/metadata/banner.gif",
     "name": "Rascal Does Not Dream",
-    "author": [
-        "JeySerYT",
-        "TripleY"
-    ],
+    "author": "JeySerYT",
     "description": "Тема с главной героиней аниме Rascal Does Not Dream",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "css": "project/style.css",
     "script": "project/script.js",
     "handleEvents": "handleEvents.json",
