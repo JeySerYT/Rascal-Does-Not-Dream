@@ -30,22 +30,12 @@ Mai Sakurajima Theme for PulseSync (Yandex Music)
             └── banner.gif
 ```
 
-## Установка
-
-### Автоматическая сборка
+## Команды
 
 ```bash
 npm install
 npm run build
 ```
-
-После сборки в папке `dist/` появятся архивы `.zip` и `.pext` с LICENSE внутри.
-
-### Ручная установка
-
-1. Склонируйте репозиторий
-2. Скопируйте папку `Rascal Does Not Dream` в папку тем PulseSync
-3. Активируйте тему в приложении
 
 ## Используемые цвета
 
