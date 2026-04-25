@@ -1,31 +1,18 @@
 .ym-dark-theme {
-    /* Основной фон */
     --ym-background-color-primary-enabled-basic: #141e32 !important;
-    
-    /* Контент */
     --ym-background-color-primary-enabled-content: #1a2640 !important;
-    
-    /* Всплывающие окна */
     --ym-background-color-primary-enabled-popover: #222e4a !important;
-    
-    /* Плеер */
     --ym-background-color-primary-enabled-player: #141e32 !important;
-    
-    /* Отключение автоматического цвета трека */
     --player-average-color-background: #141e32 !important;
     --ym-background-color-primary-enabled-vibe: #141e32 !important;
-    
-    /* Hover цвета */
     --ym-controls-color-primary-default-hovered: #2d4f78 !important;
     --ym-controls-color-primary-text-hovered: #5a80a8 !important;
 }
 
-/* Отключение анимации волны по умолчанию */
 [class*="VibeAnimation_root"] {
     display: none !important;
 }
 
-/* Отключение фона на основе цвета трека */
 [class*="PlayerBarDesktopWithBackgroundProgressBar_root"],
 [class*="PlayerBar_root"],
 section[class*="PlayerBar_root"],
@@ -34,31 +21,24 @@ section[class*="PlayerBar_root"],
     background-color: #141e32 !important;
 }
 
-/* ===== плеер ===== */
-
-/* Прогрессбар */
 [class*="ChangeTimecodeBackground_backgroundProgressbar"]:before {
     background-color: #14235d !important;
 }
 
-/* Ползунок прогрессбара */
 [class*="ChangeTimecode_thumb"] {
     background-color: #2d4f78 !important;
     border-color: #2d4f78 !important;
 }
 
-/* Цвет уже проигранной части */
 [class*="ChangeTimecodeBackground_progressbar"] {
     --ym-slider-color-primary-progress: #14235d !important;
 }
 
-/* Время*/
 [class*="ChangeTimecode_timecodeGroup"],
 [class*="ControlsBar_duration"] {
     color: #a8b8c8 !important;
 }
 
-/* Цвет иконок в плеере */
 [class*="ControlsBar_likeIcon"],
 [class*="ControlsBar_dislikeIcon"],
 [class*="ControlsBar_item"],
@@ -66,14 +46,12 @@ section[class*="PlayerBar_root"],
     color: #a8b8c8 !important;
 }
 
-/* Громкость */
 [class*="ChangeVolume_slider"]:before {
     background-color: #14235d !important;
 }
 
-/* ===== VibeBlock ===== */
 .VibeBlock_root__z7LtR {
-    background-image: url("http://127.0.0.1:2007/assets/mai-vibe.gif?name=Rascal Does Not Dream") !important;
+    background-image: url("http://127.0.0.1:2007/Assets/mai-vibe.gif?name=Rascal Does Not Dream") !important;
     background-size: cover !important;
     background-position: center !important;
     width: 100% !important;
@@ -81,16 +59,16 @@ section[class*="PlayerBar_root"],
     border-radius: 15px !important;
     min-height: 200px !important;
 }
+
 [class*="VibeBlock_root"]:not([class*="VibeBlock_root_freemium"]) {
-    background-image: url("http://127.0.0.1:2007/assets/mai-vibe.gif?name=Rascal Does Not Dream") !important;
+    background-image: url("http://127.0.0.1:2007/Assets/mai-vibe.gif?name=Rascal Does Not Dream") !important;
     background-size: cover !important;
     background-position: center !important;
 }
 
-/* ===== Тайтл бар ===== */
 @font-face {
     font-family: 'Cherry Bomb One';
-    src: url('http://127.0.0.1:2007/assets/fonts/CherryBombOne-Regular.ttf?name=Rascal Does Not Dream') format('truetype');
+    src: url('http://127.0.0.1:2007/Assets/fonts/CherryBombOne-Regular.ttf?name=Rascal Does Not Dream') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -106,7 +84,7 @@ span[class*="TitleBar_pulseText"],
     overflow: hidden !important;
 }
 
-.mai-custom-titlebar {
+#mai-custom-titlebar {
     position: absolute !important;
     left: 50% !important;
     top: 50% !important;

@@ -11,51 +11,67 @@ Mai Sakurajima Theme for PulseSync (Yandex Music)
 ### Автоматическая сборка
 
 ```bash
-npm install
-npm run build
+yarn
+yarn build
 ```
 
-После сборки в папке `dist/` появятся архивы `.zip` и `.pext` с LICENSE внутри.
+После сборки в папке `dist/Rascal Does Not Dream/` появятся все файлы темы.
 
 ### Ручная установка
 
 1. Склонируйте репозиторий
-2. Скопируйте папку `Rascal Does Not Dream` в папку тем PulseSync
+2. Скопируйте папку `dist/Rascal Does Not Dream` в папку аддонов PulseSync
 3. Активируйте тему в приложении
+
+## Команды
+
+```bash
+yarn dev      # dev mode с hot reload в папку аддонов PulseSync
+yarn build    # production сборка
+yarn sync     # копирование dist в папку аддонов
+yarn build:sync # build + sync
+yarn format   # форматирование кода
+```
 
 ## Структура проекта
 
 ```
 .
 ├── package.json
-├── README.md
+├── tsconfig.json
+├── vite.config.ts
+├── addon.config.mjs
+├── .prettierrc.json
 ├── .gitignore
+├── .prettierignore
 ├── LICENSE
-├── build-with-license.ps1
-└── Rascal Does Not Dream/
-    ├── metadata.json
-    ├── handleEvents.json
-    ├── LICENSE
-    ├── README.md
-    ├── changelog.txt
-    ├── project/
-    │   ├── style.css
-    │   └── script.js
-    │   
-    └── assets/
-        ├── mai-vibe.gif
-        ├── player.gif
-        ├── load.gif
-        └── metadata/
-            ├── icon.gif
-            └── banner.gif
+├── README.md
+├── src/
+│   ├── main.ts
+│   ├── pulsesync.ts
+│   ├── styles.css
+│   └── template/
+│       ├── constants.ts
+│       ├── dom.ts
+│       └── mount.ts
+├── scripts/
+│   ├── dev-build.mjs
+│   ├── sync-addon.mjs
+│   └── pulsesync-paths.mjs
+├── addon/
+│   ├── handleEvents.json
+│   ├── LICENSE
+│   └── README.md
+└── Assets/
+    ├── mai-vibe.gif
+    ├── player.gif
+    ├── load.gif
+    ├── fonts/
+    │   └── CherryBombOne-Regular.ttf
+    └── metadata/
+        ├── icon.gif
+        └── banner.gif
 ```
-
-## Используемые цвета
-
-- Основной фон: `#1a1025` (темно-фиолетовый)
-- Контент: `#241630` (фиолетовый)
-- Акцент: `#9b6bb5` (фиолетовый)
 
 ## Контрибьюторы
 
@@ -65,6 +81,7 @@ npm run build
 ## Ссылки
 
 - PulseSync: https://pulsesync.dev/
+- GitHub Repo: https://github.com/JeySerYT/Rascal-Does-Not-Dream
 
 ## Лицензия
 
