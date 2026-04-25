@@ -2,81 +2,50 @@
 
 Mai Sakurajima Theme for PulseSync (Yandex Music)
 
-## О теме
-
-Тема для Яндекс Музыки с персонажем Mai Sakurajima из аниме "Rascal Does Not Dream of Bunny Girl Senpai".
-
-## Установка
-
-### Автоматическая сборка
-
-```bash
-yarn
-yarn build
-```
-
-После сборки в папке `dist/Rascal Does Not Dream/` появятся все файлы темы.
-
-### Ручная установка
-
-1. Склонируйте репозиторий
-2. Скопируйте папку `dist/Rascal Does Not Dream` в папку аддонов PulseSync
-3. Активируйте тему в приложении
-
-## Команды
-
-```bash
-yarn dev      # dev mode с hot reload в папку аддонов PulseSync
-yarn build    # production сборка
-yarn sync     # копирование dist в папку аддонов
-yarn build:sync # build + sync
-yarn format   # форматирование кода
-```
+> Тема для Яндекс Музыки с персонажем Mai Sakurajima из аниме "Rascal Does Not Dream of Bunny Girl Senpai"
 
 ## Структура проекта
 
 ```
 .
 ├── package.json
-├── tsconfig.json
-├── vite.config.ts
-├── addon.config.mjs
-├── .prettierrc.json
-├── .gitignore
-├── .prettierignore
-├── LICENSE
 ├── README.md
-├── src/
-│   ├── main.ts
-│   ├── pulsesync.ts
-│   ├── styles.css
-│   └── template/
-│       ├── constants.ts
-│       ├── dom.ts
-│       └── mount.ts
-├── scripts/
-│   ├── dev-build.mjs
-│   ├── sync-addon.mjs
-│   └── pulsesync-paths.mjs
-├── addon/
-│   ├── handleEvents.json
-│   ├── LICENSE
-│   └── README.md
-└── Assets/
-    ├── mai-vibe.gif
-    ├── player.gif
-    ├── load.gif
-    ├── fonts/
-    │   └── CherryBombOne-Regular.ttf
-    └── metadata/
-        ├── icon.gif
-        └── banner.gif
+├── .gitignore
+├── LICENSE
+├── build-with-license.ps1
+└── Rascal Does Not Dream/
+    ├── metadata.json
+    ├── handleEvents.json
+    ├── LICENSE
+    ├── README.md
+    ├── project/
+    │   ├── style.css
+    │   └── script.js
+    └── assets/
+        ├── mai-vibe.gif
+        ├── player.gif
+        ├── load.gif
+        └── metadata/
+            ├── icon.gif
+            └── banner.gif
 ```
+
+## Команды
+
+```bash
+npm install
+npm run build
+```
+
+## Используемые цвета
+
+- Основной фон: `#141e32`
+- Контент: `#1a2640`
+- Акцент: `#2d4f78`
 
 ## Контрибьюторы
 
 - JeySerYT - автор темы
-- TripleY - со-автор темы
 
 ## Ссылки
 
